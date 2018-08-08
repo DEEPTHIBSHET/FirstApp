@@ -1,0 +1,65 @@
+
+<!--div class="container" >
+  <ul clss="nav flex-column" style="list-style-type:none;">
+    <li class="nav-item">
+      <a class="nav-link">1</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link">2</a>
+    </li>
+  </ul>
+</div>
+<div class="container">
+<button mat-button [matMenuTriggerFor]="menu">Menu</button>
+<mat-menu #menu="matMenu">
+  <button mat-menu-item>Item 1</button>
+  <button mat-menu-item>Item 2</button>
+</mat-menu>
+ <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      
+    </ul>
+    <form class="form-inline  ">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+
+</div-->
+<div clas="container-fluid">
+    <div class="button-row">
+    <nav class="navbar navbar-light ">
+       
+        <button mat-icon-button><button mat-fab><mat-icon>menu</mat-icon></button></button>
+       
+            <form class="form-inline" action="#">
+              <input class="form-control mr-sm-2" style="border-style:none none none; border-bottom-style:ridge;" type="search" placeholder="Search">
+              <div class="input-group">
+                  <div class="input-group-append">
+                      <button class="butn" type="submit"><mat-icon>search</mat-icon></button>
+                  </div>
+                </div>
+            
+            </form>
+          
+       
+        
+      
+    </nav>
+     </div>
+</div>
+
+ 
