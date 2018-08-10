@@ -38,28 +38,45 @@
 </nav>
 
 
-</div-->
-<div clas="container-fluid">
-    <div class="button-row">
-    <nav class="navbar navbar-light ">
-       
-        <button mat-icon-button><button mat-fab><mat-icon>menu</mat-icon></button></button>
-       
-            <form class="form-inline" action="#">
-              <input class="form-control mr-sm-2" style="border-style:none none none; border-bottom-style:ridge;" type="search" placeholder="Search">
-              <div class="input-group">
-                  <div class="input-group-append">
-                      <button class="butn" type="submit"><mat-icon>search</mat-icon></button>
-                  </div>
-                </div>
-            
-            </form>
-          
-       
-        
-      
-    </nav>
-     </div>
-</div>
+</div-//
 
- 
+  
+  <nav class="navbar navbar-light ">
+     <!-- <div class="col-3">
+        <button mat-icon-button><button mat-fab><mat-icon>menu</mat-icon></button></button>
+      </div>
+      <div class="col-" style="background-color:black;  color:pink; margin:auto;">
+        <h5>library management</h5>
+      </div>--//
+      <mat-grid-list cols="4" rowHeight="100px">
+        <mat-grid-tile [colspan]="1" [rowspan]="1">
+         12345679
+        </mat-grid-tile>
+      <mat-grid-tile [colspan]="3" [rowspan]="1">
+          <h5>library management</h5>
+      </mat-grid-tile>
+      </mat-grid-list>
+    </nav>
+<div clas="container-fluid">
+  <div class="row" style="margin:auto;">
+    <div class="container-fluid" style="margin:auto;">
+      <form class="form-inline" action="#" style="float:right;">
+        <input class="form-control mr-sm-2" style="border-style:none none none; border-bottom-style:ridge;" type="search" placeholder="Search by title">     
+        <div class="input-group">
+          <div class="input-group-append">
+            <button class="butn" type="submit"><mat-icon>search</mat-icon></button>
+          </div>
+        </div>          
+      </form>
+    </div>    
+  </div>  
+</div-->
+
+ <mat-grid-list cols="4" rowHeight="50px">
+        <mat-grid-tile [colspan]="1" [rowspan]="1"  [style.background]="tiles.color">
+           <button mat-fab><mat-icon>menu</mat-icon></button>
+        </mat-grid-tile>
+      <mat-grid-tile [colspan]="3" [rowspan]="1"  class="side-dish">
+          <h3>Library Management System</h3>
+      </mat-grid-tile>
+      </mat-grid-list>

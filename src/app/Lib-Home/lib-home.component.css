@@ -7,3 +7,16 @@
     color:black;
     border-style:none;
 }
+
+.side-dish{
+  background-color:black;
+  color:rgb(226, 241, 10);
+  float:left;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-top-right-radius:10px;
+  border-bottom-right-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style:oblique;
+  text-align:left;
+}
